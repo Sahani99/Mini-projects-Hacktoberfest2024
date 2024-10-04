@@ -1,0 +1,55 @@
+/* src/App.css */
+.app-container {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background: linear-gradient(to right, #4b6cb7, #182848);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+
+.header {
+  padding: 50px 20px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.description, .get-started {
+  padding: 30px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.get-started ol {
+  list-style: decimal;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.footer {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
+}
