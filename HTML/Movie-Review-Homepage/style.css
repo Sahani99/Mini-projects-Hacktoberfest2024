@@ -1,0 +1,356 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+}
+.bodyBox{
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 10%;
+}
+.topShadow{
+    z-index: 1;
+    height: 6%;
+    background-color: black;
+    box-shadow: 0px 0px 3000px 150px black;
+    box-shadow: inset;
+    width: 100%;
+    position: absolute;
+    opacity: 60%;
+}
+.backgroundImage{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    opacity: 80%;
+    z-index: 0;
+}
+.mainNav{
+    /* position: fixed; */
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+.mainNavImage{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    height: 80%;
+    width: 20%;
+    gap: 1rem;
+}
+.mainNavImage img{
+    z-index: 1;
+    height:100%;
+    width: 18%;
+    border-radius: 13px;
+}
+.mainNavImage p{
+    font-size: 3.2vh;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #c189f2;
+}
+nav{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5rem;
+    align-items: end;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    z-index: 1;
+}
+.navItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height:60%;
+    width: 8vw;
+    /* border: solid black 1px; */
+    z-index: 1;
+}
+.navItemsText{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 160%;
+    justify-content: center;
+    font-weight: 700;
+    z-index: 1;
+}
+.navItemsText:hover{
+    font-size: 180%;
+    position: relative;
+    bottom: 2px;
+    /* color: #7E22CE; */
+}
+.sideNav{
+    margin-right: 1vw;
+    display: flex;
+    flex-direction: row;
+    height: 60%;
+    z-index: 1;
+}
+.signUp{
+    background-color: #c189f2;
+    position: relative;
+    right: 0.9vw;
+    width: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    z-index: 1;
+}
+.signUp:hover{
+    background-color: #5900a7;
+    color: white;
+}
+.login{
+    background-color: #7E22CE;
+    border-radius: 100px;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 1px;
+    z-index: 10;
+}
+.login:hover{
+    background-color: #5900a7;
+}
+.sideNavPara{
+    font-size: 125%;
+    font-family: 'Roboto', sans-serif;
+}
+.loginPara{
+    color: white;
+}
+.signUpPara{
+    color: white;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 92%;
+    width: 80%;
+    /* background-color: #7E22CE; */
+    margin-left: 10%;
+}
+.searchDiv{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    /* background-color: aliceblue; */
+}
+.firstLine{
+    font-size: 8vh;
+    font-weight: 400;
+    /* color: #7E22CE; */
+}
+.secondLine{
+    font-size: 4.5vh;
+    font-weight: 200;
+    color: white;
+}
+.Line{
+    z-index: 1;
+    color: white;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    height: 8%;
+    width: 60%;
+    margin-top: 6%;
+    background-color: rgb(255, 255, 255);
+    opacity: 75%;
+    border-radius: 100px;
+    margin-bottom: 3%;
+}
+.search:hover{
+    opacity: 100%;
+}
+.search img{
+    height: 70%;
+    width: 5%;
+    margin-right: 2%;
+    opacity: 80%;
+}
+.search input{
+    margin-left: 4%;
+    height: 80%;
+    width: 80%;
+    border: white;
+    outline: none;
+    font-size: 150%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: rgb(120, 120, 120);
+}
+.search input:hover{
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: rgb(40, 39, 39);
+}
+.bottomShadow{
+    z-index: 1;
+    height: 6%;
+    background-color: black;
+    box-shadow: 0px 0px 3000px 150px black;
+    box-shadow: inset;
+    width: 100%;
+    position: absolute;
+    opacity: 100%;
+    top: 96%;
+}
+.trending{
+    /* background-color: #5900a7; */
+    z-index: 2;
+    width: 100%;
+    height: 55%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.trendingBox{
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 46vh;
+    width: 26vw;
+    /* background-color: aqua; */
+    border-radius: 20px;
+    position: realtive;
+    transition: 0.3s;
+}
+.trendingBox:hover{
+    height: 50vh;
+    width: 28vw;
+}
+.trendingImg{
+    z-index: 2;
+    width: 80%;
+    height: 100%;
+    transition: 0.3s;
+}
+.trendingImg:hover{
+    box-shadow:  0px 0px 25px 5px white;
+    border-radius: 20px;
+}
+.trendingImg img{
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.parentTrendingPara{
+    position: relative;
+    z-index:3;
+    margin-left:39%;
+    margin-bottom: 10vh;
+    width:12rem;
+    /* background-color: #5900a7; */
+}
+.trendingPara{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10vh;
+    color: white;
+    font-weight: 500;
+    z-index: 3;
+    margin-bottom: 7.5vh;
+}
+.starImg{
+    height: 4vh;
+    width: 4vh;
+}
+.trendingImgPara{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.3rem;
+}
+.reviewDivParent{
+    width: 80%;
+    height: 38%;
+    /* background-color: #5900a7; */
+    margin-left: 10%;
+    margin-top: 4vh;
+    display: flex;
+    gap: 10%;
+}
+.reviewDiv{
+    width: 45%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: inset;
+    box-shadow: 0px 0px 50px 8px #5900a7;
+}
+.movieName{
+    margin-left: 5%;
+    font-family: 'Roboto', sans-serif;
+    color: #5900a7;
+    margin-top: 1%;
+    font-weight: 500;
+    font-size: 5vh;
+    margin-bottom: 1vh;
+    margin-top: 2vh;
+}
+.reviewerName{
+    margin-left: 5%;
+    color: #c189f2;
+    font-size: 2.5vh;
+    font-weight: 900;
+    margin-top: 3%;
+    font-family: 'Roboto', sans-serif;
+}
+.review{
+    margin-left: 5%;
+    color: #5900a7;
+    margin-top: 6%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 4%;
+}
+.Review{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 10vh;
+    margin-left: 40%;
+}
+footer{
+    height: 10%;
+}
