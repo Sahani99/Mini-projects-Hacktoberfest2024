@@ -23,7 +23,7 @@ function getComputerChoice() {
 
 function determineWinner(user, computer) {
     if (user === computer) {
-        resultMessage_p.innerText = "It's a draw!";
+        resultMessage_p.innerText = "It's a draw! 🤝";
     } else if (
         (user === "rock" && computer === "scissors") ||
         (user === "scissors" && computer === "paper") ||
@@ -31,10 +31,10 @@ function determineWinner(user, computer) {
     ) {
         userScore++;
         userScore_span.innerText = userScore;
-        resultMessage_p.innerText = "You win!";
+        resultMessage_p.innerText = "You win! 🏆";
     } else {
         computerScore++;
         computerScore_span.innerText = computerScore;
-        resultMessage_p.innerText = "You lose!";
+        resultMessage_p.innerText = "You lose! 😢";
     }
 }
