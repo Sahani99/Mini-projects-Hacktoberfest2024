@@ -2,7 +2,6 @@
 .app-container {
   font-family: 'Poppins', sans-serif;
   text-align: center;
-  background: linear-gradient(to right, #4b6cb7, #182848);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -52,4 +51,57 @@ p {
   padding: 20px;
   background: rgba(0, 0, 0, 0.5);
   font-size: 1rem;
+}
+
+/* App.css
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+} */
+
+.cover-image-container {
+  width: 100%; 
+  overflow: hidden; 
+  align-items: center; 
+}
+
+.cover-image {
+  align-items: center;
+  width: 60%; 
+  height: auto; 
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; 
+  gap: 20px; 
+  margin: 20px 0;
+}
+
+.btn {
+  padding: 15px 30px; 
+  font-size: 18px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+
+.plan-trip-btn {
+  background-color: #007bff; 
+  color: white; 
+}
+
+.locations-btn {
+  background-color: #28a745; 
+  color: white; 
+}
+
+.plan-trip-btn:hover {
+  background-color: #0056b3; 
+}
+
+.locations-btn:hover {
+  background-color: #218838; 
 }
