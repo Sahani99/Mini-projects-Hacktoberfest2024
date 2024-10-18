@@ -1,32 +1,35 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: #ebbf50;
+    margin-top: 135px;
 }
 
 .game-container {
     margin: 50px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #219ebc;
     border-radius: 10px;
-    width: 300px;
+    width: 350px;
+    height: 350px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 32px;
 }
 
 .scoreboard {
     display: flex;
     justify-content: center;
     margin: 20px 0;
-    font-size: 24px;
+    font-size: 29px;
+    font-weight: bold;
 }
 
 .choices button {
-    background-color: #3498db;
-    border: none;
+    background-color: #023047;
+    border: black;
     color: white;
     padding: 10px 20px;
     margin: 10px;
@@ -36,11 +39,11 @@ h1 {
 }
 
 .choices button:hover {
-    background-color: #2980b9;
+    background-color: rgb(130, 130, 130);
 }
 
 #result-message {
-    margin-top: 20px;
-    font-size: 18px;
-    font-weight: bold;
+    margin-top: 39px;
+    font-size: 30px;
+    font-weight: bolder;
 }
