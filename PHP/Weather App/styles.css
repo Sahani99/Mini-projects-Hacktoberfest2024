@@ -1,0 +1,338 @@
+#square{
+    width: 380px;
+    height: 380px;
+    background: #000040;
+    border-radius: 10px;
+    margin: calc((100vh - 400px)/2) auto;
+    box-shadow: 5px 5px 5px gray;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  #moon{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    background: beige;
+    border-radius: 50%;
+    top: 230px;
+    left: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 4px 4px white;
+    animation: moon_raise 600ms ease-out 1;
+    animation-fill-mode: forwards;
+  }
+  
+  .hole{
+    background: burlywood;
+    border-radius: 50%;
+    position: absolute;
+  }
+  
+  #hole1{
+    width: 6px;
+    height: 6px;
+    left: 30px;
+    top: 50px;
+  }
+  
+  #hole2{
+    width: 12px;
+    height: 12px;
+    left: 50px;
+    top: 25px;
+  }
+  
+  #hole3{
+    width: 8px;
+    height: 8px;
+    left: 10px;
+    top: 15px;
+  }
+  
+  #hole4{
+    width: 4px;
+    height: 4px;
+    left: 35px;
+    top: 10px;
+  }
+  
+  #hole5{
+    width: 20px;
+    height: 20px;
+    left: -6px;
+    top: 35px;
+  }
+  
+  #hole6{
+    width: 10px;
+    height: 10px;
+    left: 26px;
+    top: 25px;
+  }
+  
+  #hole7{
+    width: 10px;
+    height: 10px;
+    left: 45px;
+    top: 62px;
+  }
+  
+  .light{
+    background: #404080;
+    z-index: 2;
+  }
+  
+  .dark{
+    background: #202060;
+    z-index: 1;
+  }
+  
+  .floor{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    position: absolute;
+  }
+  
+  #floor1{
+    top: 240px;
+    left: -200px;
+  }
+  
+  #floor2{
+    top: 220px;
+    left: 30px;
+  }
+  
+  #floor3{
+    top: 240px;
+    left: 230px;
+  }
+  
+  #floor4{
+    top: 200px;
+    left: -70px;
+  }
+  
+  #floor5{
+    top: 190px;
+    left: 170px;
+  }
+  
+  #info{
+    width: 380px;
+    height: 80px;
+    top: 300px;
+    position: absolute;
+    background: white;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: sans-serif;
+  }
+  
+  #temp{
+    font-size: 45px;
+  }
+  
+  #stats, #next{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50px;
+  }
+  
+  #stats{
+    align-items: start;
+  }
+  
+  #next span{
+    display: flex;
+    width: 130px;
+    text-align: right;
+    display: block;
+  }
+  
+  #next span b{
+    width: 80px;
+    display: block;
+    float: right;
+  }
+  
+  .drop{
+    position: absolute;
+    z-index: 4;
+    width: 120px;
+    height: 370px;
+    top: -70px;
+  }
+  
+  .away{
+    transform: scale(80%);
+    opacity: 0.70;
+  }
+  
+  .drop:before{
+    position: relative;
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: deepskyblue;
+    display: block;
+    top: 10px;
+    left: 100px;
+    border-radius: 50%;
+    animation: rain_before 1s ease-out infinite;
+  }
+  
+  .drop:after{
+    position: absolute;
+    content: "";
+    display: block;
+    top: -5px;
+    left: 105.5px;
+    opacity: 1;
+    width: 0px;
+    height: 0px;
+    border-width: 10px 4px;
+    border-style: solid;
+    border-color: transparent;
+    border-bottom-color: deepskyblue;
+    transform: rotate(27deg);
+    animation: rain_after 1s ease-out infinite;
+  }
+  
+  #drop1{
+    left: 0px;
+  }
+  
+  #drop2{
+    left: 100px;
+  }
+  
+  #drop3{
+    left: 200px;
+  }
+  
+  #drop4{
+    left: 300px;
+  }
+  
+  #drop5{
+    left: 50px;
+  }
+  
+  #drop6{
+    left: 140px;
+  }
+  
+  #drop7{
+    left: 230px;
+  }
+  
+  #drop8{
+    left: 320px;
+  }
+  
+  #drop6:after, #drop6:before{
+    animation-delay: 0ms;
+  }
+  
+  #drop2:after, #drop2:before{
+    animation-delay: 250ms;
+  }
+  
+  #drop5:after, #drop5:before{
+    animation-delay: 500ms;
+  }
+  
+  #drop1:after, #drop1:before{
+    animation-delay: 750ms;
+  }
+  
+  #drop8:after, #drop8:before{
+    animation-delay: 1000ms;
+  }
+  
+  #drop4:after, #drop4:before{
+    animation-delay: 1250ms;
+  }
+  
+  #drop7:after, #drop7:before{
+    animation-delay: 1500ms;
+  }
+  
+  #drop3:after, #drop3:before{
+    animation-delay: 1750ms;
+  }
+  
+  #drop8{
+    left: 320px;
+    animation-delay: 1000ms;
+  }
+  
+  @keyframes rain_before{
+    0%{
+      top: 10px;
+      left: 100px;
+      width: 8px;
+      height: 8px;
+      opacity: 1;
+    }
+    70%{
+      top: 360px;
+      left: 5px;
+      width: 8px;
+      height: 8px;
+      opacity: 1;
+    }
+    
+    85%{
+      top: 360px;
+      left: 3px;
+      width: 12px;
+      height: 6px;
+      opacity: 0.5;
+    }
+    
+    100%{
+      top: 360px;
+      left: 3px;
+      width: 12px;
+      height: 6px;
+      opacity: 0;
+    }
+  }
+  
+  @keyframes rain_after{
+    0%{
+      top: -5px;
+      left: 105.5px;
+      opacity: 1;
+    }
+    70%{
+      top: 345px;
+      left: 10px;
+      opacity: 1;
+    }
+    
+    100%{
+      top: 348px;
+      left: 8px;
+      opacity: 0;
+    }
+  }
+  
+  @keyframes moon_raise{
+    from{
+      top: 230px;
+      left: 30px;
+    }
+    to{
+      top: 50px;
+      left: 50px;
+    }
+  }
+  
