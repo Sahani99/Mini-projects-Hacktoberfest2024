@@ -1,8 +1,7 @@
-/* src/App.css */
 .app-container {
   font-family: 'Poppins', sans-serif;
   text-align: center;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -52,13 +51,6 @@ p {
   background: rgba(0, 0, 0, 0.5);
   font-size: 1rem;
 }
-
-/* App.css
-.app-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
-} */
 
 .cover-image-container {
   width: 100%; 
