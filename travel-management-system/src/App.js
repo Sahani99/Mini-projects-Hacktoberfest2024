@@ -6,6 +6,8 @@ import coverImage from './images/c1.jpg';
 import Footer from './Footer';
 import DetailBox from './DetailBox';
 import Location from './Location';
+import About from './About';
+import Services from './Services';
 
 function App() {
   const [isDetailBoxVisible, setIsDetailBoxVisible] = useState(false);
@@ -40,13 +42,14 @@ function App() {
                 </div>
 
                 {isDetailBoxVisible && <DetailBox onClose={handleCloseDetailBox} />}
-
-                <Footer />
               </>
             }
           />
           <Route path="/locations" element={<Location />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
