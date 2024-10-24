@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <p>&copy; {new Date().getFullYear()} Travel Management System. All Rights Reserved.</p>
+        <p>&copy; {new Date().getFullYear()} KAMINO TRAVEL AGENCY. All Rights Reserved.</p>
         <div className="social-links">
           <a href="facebook.com/kamino" aria-label="Facebook">Facebook</a>
           <a href="twitter.com/kamino" aria-label="Twitter">Twitter</a>
