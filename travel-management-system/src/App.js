@@ -8,6 +8,8 @@ import DetailBox from './DetailBox';
 import Location from './Location';
 import About from './About';
 import Services from './Services';
+import TourGuides from './Tourguides';
+import ContactUs from './ContactUs';
 
 function App() {
   const [isDetailBoxVisible, setIsDetailBoxVisible] = useState(false);
@@ -48,6 +50,8 @@ function App() {
           <Route path="/locations" element={<Location />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/tourguides" element={<TourGuides />} />
+          <Route path="/contact" element={<ContactUs />} />
         </Routes>
         <Footer />
       </div>
