@@ -1,5 +1,5 @@
 {
-  "name": "travel-management-system",
+  "name": "tictactoe",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,10 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.27.0",
     "react-scripts": "5.0.1",
-    "react-slick": "^0.30.2",
-    "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

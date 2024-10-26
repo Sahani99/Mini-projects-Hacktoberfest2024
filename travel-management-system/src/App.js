@@ -1,40 +1,61 @@
-import React from 'react';
-import './App.css';
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import Navbar from './Navbar';
+import './css/App.css';
+import coverImage from './images/c1.jpg'; 
+import Footer from './Footer';
+import DetailBox from './DetailBox';
+import Location from './Location';
+import About from './About';
+import Services from './Services';
+import TourGuides from './Tourguides';
+import ContactUs from './ContactUs';
 
 function App() {
+  const [isDetailBoxVisible, setIsDetailBoxVisible] = useState(false);
+
+  const handlePlanTripClick = () => {
+    setIsDetailBoxVisible(true);
+  };
+
+  const handleCloseDetailBox = () => {
+    setIsDetailBoxVisible(false);
+  };
+
   return (
-    <div className="app-container">
-      <header className="header">
-        <h1>Welcome to the Travel Management System</h1>
-        <p>This is the main project, and it is designed to be a comprehensive Travel Management System.</p>
-      </header>
+    <Router>
+      <div className="app-container">
+        <Navbar />
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <div className="cover-image-container">
+                  <img src={coverImage} alt="Cover" className="cover-image" />
+                </div>
+                <div className="button-container">
+                  <button className="btn plan-trip-btn" onClick={handlePlanTripClick}>
+                    Plan Your Trip
+                  </button>
+                  <Link to="/locations">
+                    <button className="btn locations-btn">Locations</button>
+                  </Link>
+                </div>
 
-      <section className="description">
-        <h2>About the Project</h2>
-        <p>
-          This project is built using the <strong>MERN stack</strong>, which consists of <strong>MongoDB, Express, React, and Node.js</strong>.
-          It's a full-featured travel management platform that helps manage travelers, bookings, accommodations, and more.
-        </p>
-        <p>Feel free to edit this project and explore the flexibility of the MERN stack.</p>
-      </section>
-
-      <section className="get-started">
-        <h2>Get Started</h2>
-        <p>To contribute or make changes, follow these steps:</p>
-        <ol>
-          <li>Clone the project from the repository.</li>
-          <li>Install dependencies using <code>npm install</code>.</li>
-          <li>Make changes and see updates live with <code>npm start</code>.</li>
-        </ol>
-        <p>
-          Whether you're improving the backend with Node.js and MongoDB or polishing the frontend with React, this project is yours to explore.
-        </p>
-      </section>
-
-      <footer className="footer">
-        <p>Happy coding! 🌍 ✈️</p>
-      </footer>
-    </div>
+                {isDetailBoxVisible && <DetailBox onClose={handleCloseDetailBox} />}
+              </>
+            }
+          />
+          <Route path="/locations" element={<Location />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/tourguides" element={<TourGuides />} />
+          <Route path="/contact" element={<ContactUs />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
