@@ -83,9 +83,12 @@
   }
   
   .cell.x::before,
-  .cell.x::after,
+  .cell.x::after
+  {
+    background-color: #ff6f61;
+  }
   .cell.circle::before {
-    background-color: #884bc9;
+    background-color: #6bc987;
   }
   
   .board.x .cell:not(.x):not(.circle):hover::before,
