@@ -8,11 +8,17 @@
 </head>
 <body>
     <div class="game-container">
-        <h1>Rock, Paper, Scissors</h1>
-        <div class="scoreboard">
+        <h1 id="title">Rock, Paper, Scissors</h1>
+        <div id="scoreboard">
             <p id="user-score">0</p>
             <p>:</p>
             <p id="computer-score">0</p>
+        </div>
+
+        <div id="name">
+            <p id="user-label">User</p>
+            <p>:</p>
+            <p id="computer-label">Computer</p>
         </div>
 
         <div class="choices">
@@ -20,7 +26,8 @@
             <button id="paper">Paper</button>
             <button id="scissors">Scissors</button>
         </div>
-
+        <p id="user-choice">User choice: none</p>
+        <p id="computer-choice">Computer choice: none</p>
         <p id="result-message">Make your move!</p>
     </div>
 

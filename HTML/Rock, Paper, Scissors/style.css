@@ -1,0 +1,219 @@
+*{
+    background-color: rgb(168, 241, 154);
+    color:rgb(34, 102, 31);
+}
+.game-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: none;
+    padding: none;
+}
+
+#scoreboard , #name{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    font-size: 48px;
+    
+
+}
+#name{
+    font-size: 24px;
+    font-weight: bold;
+}
+#user-score, #computer-score {
+    padding: 6px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #1a9649, #016d0a);
+}
+
+#user-choice, #computer-choice {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 30px 0px 0px 0px;
+}
+
+#rock {
+    padding: 5px 10px;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+#rock::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+        45deg,
+        transparent,
+        rgba(255,255,255,0.3),
+        transparent
+    );
+    transform: rotate(45deg);
+    transition: 0.5s;
+}
+
+#rock:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+#rock:hover::before {
+    animation: shine 0.75s;
+}
+
+@keyframes shine {
+    0% {
+        transform: rotate(45deg) translateX(-200%);
+    }
+    100% {
+        transform: rotate(45deg) translateX(200%);
+    }
+}
+
+@media (max-width: 480px) {
+    #rock {
+        padding: 15px 30px;
+        font-size: 16px;
+    }
+}
+
+#paper {
+    padding: 5px 10px;
+    background: linear-gradient(135deg, #fc5335, #811e1e);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+#paper::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+        45deg,
+        transparent,
+        rgba(255,255,255,0.3),
+        transparent
+    );
+    transform: rotate(45deg);
+    transition: 0.5s;
+}
+
+#paper:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+#paper:hover::before {
+    animation: shine 0.75s;
+}
+
+@keyframes shine {
+    0% {
+        transform: rotate(45deg) translateX(-200%);
+    }
+    100% {
+        transform: rotate(45deg) translateX(200%);
+    }
+}
+
+@media (max-width: 480px) {
+    #paper {
+        padding: 15px 30px;
+        font-size: 16px;
+    }
+}
+
+
+#scissors {
+    padding: 5px 10px;
+    background: linear-gradient(135deg, #fb6ecc, #5a1543);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+#scissors::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+        45deg,
+        transparent,
+        rgba(255,255,255,0.3),
+        transparent
+    );
+    transform: rotate(45deg);
+    transition: 0.5s;
+}
+
+#scissors:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+#scissors:hover::before {
+    animation: shine 0.75s;
+}
+
+@keyframes shine {
+    0% {
+        transform: rotate(45deg) translateX(-200%);
+    }
+    100% {
+        transform: rotate(45deg) translateX(200%);
+    }
+}
+
+@media (max-width: 480px) {
+    #scissors {
+        padding: 15px 30px;
+        font-size: 16px;
+    }
+}
+
+#title{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+#result-message{
+    font-size: 40px;
+}
