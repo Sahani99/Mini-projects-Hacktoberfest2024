@@ -1,32 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-*{
-    padding: 0px;
-    margin: 0px;
+
+* {
+    padding: 0;
+    margin: 0;
 }
-body{
+
+body {
     background-color: #bfd7ea;
 }
 
-header > h1{
+header > h1 {
     color: #bfd7ea;
     background-color: #0b3954;
     text-align: center;
     font-family: 'Press Start 2P', cursive;
-    font-size:xxx-large;
+    font-size: xxx-large;
 }
-#sketch-area{
-    display: flex;
-    flex-wrap: wrap;
+
+#sketch-area {
+    display: grid;
     background-color: white;
     margin: 50px auto;
-    padding-bottom:0px ;
-    margin-bottom: 10px ;
+    border: 1px solid #ccc;
+    overflow: hidden;
 }
-.cell{
-    border: 1px solid whitesmoke ;
+
+.cell {
+    box-sizing: border-box;
+    border: 1px solid whitesmoke;
 }
-.slider{
-    margin: 0;
+
+.slider-container {
+    text-align: center;
+    margin: 10px auto;
+    width: 300px;
+}
+
+.slider {
+margin: 0;
     padding: 0;
     -webkit-appearance: none;
     appearance: none;
@@ -41,16 +52,12 @@ header > h1{
     appearance: none;
     border:2px solid;
 }
-#slider-value{
-    text-align: center;
-    margin: 0 auto;
-}
 
-.slider:hover{
+.slider:hover {
     opacity: 1;
 }
 
-.slider::-webkit-slider-thumb{
+.slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
     width: 25px;
@@ -59,9 +66,17 @@ header > h1{
     cursor: pointer;
     border: 2px solid #fff;
 }
-.slider::-moz-range-thumb{
+
+.slider::-moz-range-thumb {
     width: 25px;
     height: 25px;
-    background: #04AA6D ;
+    background: #04AA6D;
     cursor: pointer;
+}
+
+#slider-value {
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
 }
