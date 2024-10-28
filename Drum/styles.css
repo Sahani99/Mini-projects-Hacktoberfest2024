@@ -1,0 +1,227 @@
+/* General Body Styling */
+body {
+  text-align: center;
+  background: linear-gradient(135deg, #5b73b6, #283149);
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Heading Styling */
+h1 {
+  font-size: 4.5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", sans-serif;
+  text-shadow: 4px 4px #DA0463, 0 0 10px #DA0463;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  transition: transform 0.3s;
+}
+
+h1:hover {
+  transform: scale(1.05);
+  color: #f6f9fc;
+}
+
+/* Footer Styling */
+footer {
+  color: #DBEDF3;
+  font-family: 'Arial', sans-serif;
+  position: absolute;
+  bottom: 10px;
+  font-size: 1.2rem;
+}
+
+/* Drum Button Styling */
+.drum {
+  outline: none;
+  border: 8px solid #404B69;
+  font-size: 4rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 2px 2px #DBEDF3;
+  border-radius: 20px;
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  margin: 10px;
+  background: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Hover and Active State for Drum Buttons */
+.drum:hover {
+  background: linear-gradient(145deg, #f1f5f8, #dbedf3);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.6), 0 0 10px rgba(255, 255, 255, 0.4);
+}
+
+.drum:active {
+  transform: translateY(4px);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Drum Button Animation when pressed */
+.pressed {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  opacity: 0.8;
+  background-color: #DA0463;
+  color: #DBEDF3;
+  transform: scale(0.95);
+}
+
+/* Background Images for Each Drum */
+.w {
+  background-image: url("images/tom1.png");
+  background-size: cover;
+}
+
+.a {
+  background-image: url("images/tom2.png");
+  background-size: cover;
+}
+
+.s {
+  background-image: url("images/tom3.png");
+  background-size: cover;
+}
+
+.d {
+  background-image: url("images/tom4.png");
+  background-size: cover;
+}
+
+.j {
+  background-image: url("images/snare.png");
+  background-size: cover;
+}
+
+.k {
+  background-image: url("images/crash.png");
+  background-size: cover;
+}
+
+.l {
+  background-image: url("images/kick.png");
+  background-size: cover;
+}
+
+/* Set Class for Button Alignment */
+.set {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 80%;
+  margin: 3rem auto;
+  gap: 15px;
+}
+
+/* Keyframes for subtle bounce effect */
+@keyframes buttonPop {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Applying the Bounce Animation on Hover */
+.drum:hover {
+  animation: buttonPop 0.3s ease-in-out;
+}
+/* Neon Background Animation with Bluish Tones */
+.neon-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #380158, #11e5a9, #426a8d, #00b8e6, #9ef639, #210725);
+  background-size: 400% 400%;
+  z-index: -1;
+  animation: bluePartyColors 30s ease-in-out infinite;
+}
+
+/* Keyframes for Bluish Color-Cycling Background */
+@keyframes bluePartyColors {
+  0% { background-position: 0% 50%; }
+  25% { background-position: 50% 50%; }
+  50% { background-position: 100% 50%; }
+  75% { background-position: 50% 100%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Drum Button Styling with Bluish Glow */
+.drum {
+  outline: none;
+  border: 10px solid #00263f;
+  font-size: 4rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #ffffff;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 0 20px rgba(0, 153, 255, 0.4), 0 0 30px rgba(0, 204, 255, 0.6), 0 0 40px rgba(51, 204, 255, 0.8);
+  animation: blueDrumFlash 1.5s infinite alternate;
+}
+
+/* Pulsing Blue Glow Animation for Buttons */
+@keyframes blueDrumFlash {
+  0% {
+    box-shadow: 0 0 20px rgba(0, 153, 255, 0.4), 0 0 30px rgba(0, 204, 255, 0.6), 0 0 40px rgba(51, 204, 255, 0.8);
+    transform: scale(1);
+  }
+  100% {
+    box-shadow: 0 0 30px rgba(0, 102, 204, 0.6), 0 0 40px rgba(0, 51, 153, 0.8), 0 0 50px rgba(0, 204, 255, 1);
+    transform: scale(1.03);
+  }
+}
+
+/* Flashing Effect when Pressed */
+.pressed {
+  animation: blueDrumPress 0.2s;
+  background-color: rgba(0, 153, 255, 0.3);
+}
+
+/* Drum Button Pressed Animation */
+@keyframes blueDrumPress {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 20px rgba(0, 204, 255, 0.5), 0 0 30px rgba(0, 102, 204, 0.7), 0 0 40px rgba(51, 204, 255, 0.9);
+  }
+  100% {
+    transform: scale(0.97);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.8), 0 0 15px rgba(0, 102, 204, 1), 0 0 20px rgba(0, 51, 153, 1);
+  }
+}
+
+/* Adjusted Styling for Set Container */
+.set {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem auto;
+  gap: 15px;
+}
