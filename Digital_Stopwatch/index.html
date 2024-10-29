@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Clock</title>
+</head>
+<body>
+
+  <!-- currenttime box -->
+    <div class="container">
+    <div class="currenttime box ">
+        <div class="toggle-mode"><i class="fa-solid fa-moon"></i></div>
+        <div class="clockbox">
+        <div class="clock">
+       <div class="time"> 
+        <input class="hour input  pointerevent" value="00"></input> <div class="texts">Hour</div>
+      </div>
+       <span class="colon">:</span>
+       <div class="time"> 
+        <input class="min input pointerevent" value="00"></input> <div class="texts">Minute</div>
+      </div>
+       <span class="colon">:</span>
+       <div class="time">
+       <input class="sec input pointerevent" value="00"></input> <div class="texts">Second</div>
+      </div>
+        <div class="ampm">AM </div>
+    </div>  
+    <div class="button-box ">
+      <div class="buttons " >
+         <button class="btn-31" id="currTime-stopwatch">
+         <span class="text-container">
+           <span class="text">Stopwatch</span>
+         </span>
+       </button>
+       <button class="btn-31" id="currTime-timer">
+         <span class="text-container">
+           <span class="text">Timer</span>
+         </span>
+       </button>
+       <button class="btn-31" id="currTime-time">
+         <span class="text-container">
+           <span class="text">Time</span>
+         </span>
+       </button>
+    </div>      
+</div>
+</div>
+</div>
+
+<!-- stopwatch box -->
+
+  <div class="stopwatch box hidden">
+      <div class="toggle-mode"><i class="fa-solid fa-moon"></i></div>
+      <div class="clockbox">
+      <div class="clock">
+     <div class="time">
+       <input class="Stopwatch-hour input pointerevent" value="00"></input> <div class="texts">Hour</div>
+      </div>
+     <span class="colon">:</span>
+     <div class="time"> 
+      <input class="Stopwatch-min input pointerevent" value="00"></input> <div class="texts">Minute</div>
+    </div>
+     <span class="colon">:</span>
+     <div class="time">
+       <input class="Stopwatch-sec input pointerevent" value="00"></input> <div class="texts">Second</div>
+      </div>
+     <span class="colon">:</span>
+     <div class="time">
+       <input class="Stopwatch-milisec input pointerevent" value="00"></input> <div class="texts">Milisecond</div>
+      </div>     
+      </div>
+      <div class="button-box ">
+        <div class="buttons " >
+           <button class="btn-31" id="stopwatch-Stopwatch">
+           <span class="text-container">
+             <span class="text">Stopwatch</span>
+           </span>
+         </button>
+         <button class="btn-31" id="stopwatch-timer">
+           <span class="text-container">
+             <span class="text">Timer</span>
+           </span>
+         </button>
+         <button class="btn-31" id="stopwatch-time">
+           <span class="text-container">
+             <span class="text">Time</span>
+           </span>
+         </button>
+      </div>
+         <div class="btn-controls "> 
+           <button class="btn stopwatch-start">Start</button>
+           <button class="btn stopwatch-stop">stop</button>
+           <button class="btn stopwatch-restart">Restart</button>
+         </div>   
+       </div>
+       </div>
+</div>
+
+<!-- timer box -->
+
+<div class="timer box hidden ">
+  <div class="toggle-mode"><i class="fa-solid fa-moon"></i></div>
+  <div class="msg">RESET and Input the time in time-boxes</div>
+  <div class="clockbox">
+  <div class="clock ">
+ <div class="time"> <input class="timer-hour input " value="00"></input> <div class="texts">Hour</div></div>
+ <span class="colon">:</span>
+ <div class="time"> <input class="timer-min input " value="00"></input> <div class="texts">Minute</div></div>
+ <span class="colon">:</span>
+ <div class="time"> <input class="timer-sec input " value="00"></input> <div class="texts">Second</div></div>
+ <span class="colon">:</span>
+ <div class="time"> <input class="timer-milisec input " value="00"></input> <div class="texts">Milisecond</div></div>
+</div>
+<div class="button-box ">
+  <div class="buttons " >
+     <button class="btn-31" id="timer-stopwatch">
+     <span class="text-container">
+       <span class="text">Stopwatch</span>
+     </span>
+   </button>
+   <button class="btn-31" id="timer-timer">
+     <span class="text-container">
+       <span class="text">Timer</span>
+     </span>
+   </button>
+   <button class="btn-31" id="timer-time">
+     <span class="text-container">
+       <span class="text">Time</span>
+     </span>
+   </button>
+</div>
+   <div class="btn-controls "> 
+     <button class="btn timer-start">Start</button>
+     <button class="btn timer-restart">Restart</button>
+   </div>   
+ </div>
+ </div>
+</div>
+</div>
+</div>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
