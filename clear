@@ -1,0 +1,668 @@
+[33mcommit 03888a9aec3496da65231e2172390ca5911a506c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: deep <www.crushy@gmail.com>
+Date:   Tue Oct 29 13:52:08 2024 +0530
+
+    features
+
+[33mcommit 8129ce52a8d52d8a4f3d4d2d095cb0a591a7de22[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: c78acf9 32480a4
+Author: Sahani99 <87770007+Sahani99@users.noreply.github.com>
+Date:   Mon Oct 28 01:38:20 2024 -0700
+
+    Merge pull request #39 from Amit-Verma5262/project
+    
+    fixed drum
+
+[33mcommit 32480a4dcf6bd1e62393c0880c947ead5cea33fa[m
+Author: Amit-Verma5262 <amitverma5262.02@gmail.com>
+Date:   Mon Oct 28 12:55:36 2024 +0530
+
+    fixed drum
+
+[33mcommit c78acf9b1924771a38ed9dc943c29aab0f657cd7[m
+Merge: 35c51d4 ba21b13
+Author: Sahani99 <87770007+Sahani99@users.noreply.github.com>
+Date:   Sun Oct 27 21:12:34 2024 +0530
+
+    Merge pull request #38 from Abhi8756/rocky_css
+    
+    complete overhaul of rock paper scissors
+
+[33mcommit ba21b13f8a360347876cc624f7f2b8070c39e393[m
+Merge: 7e6c117 35c51d4
+Author: Abhijit <140577178+Abhi8756@users.noreply.github.com>
+Date:   Sun Oct 27 20:56:29 2024 +0530
+
+    Merge branch 'main' into rocky_css
+
+[33mcommit 7e6c1171457919d04ed14e641dbada81e41d5f0f[m
+Author: Abhi8756 <Abhijit.potty2023@vitstudent.ac.in>
+Date:   Sun Oct 27 20:53:40 2024 +0530
+
+    complete overhaul of rock paper scissors
+
+[33mcommit 35c51d4f4118c64138e4c7c186931757327492d1[m
+Merge: 8ad4f6e 80ee705
+Author: Sahani99 <87770007+Sahani99@users.noreply.github.com>
+Date:   Sun Oct 27 19:32:29 2024 +0530
+
+    Merge pull request #37 from Sahani99/revert-34-patch-1
+    
+    Revert "Update README.md"
+
+[33mcommit 80ee705a46a286c867f50b09bd1169c36c47b35f[m
+Author: Sahani99 <87770007+Sahani99@users.noreply.github.com>
+Date:   Sun Oct 27 19:31:28 2024 +0530
+
+    Revert "Update README.md"
+
+[33mcommit 8ad4f6ebe7d89895306212020b2f0de91bab1bcf[m
+Merge: aa56047 9b5d7a0
+Author: Sahani99 <87770007+Sahani99@users.noreply.github.com>
+Date:   Sun Oct 27 19:29:07 2024 +0530
+
+    Merge pull request #36 from Abhi8756/main
+    
+    Changed appearance of tic-tac-toe
+
+[33mcommit aa560477d70e5d5f2572ce68062a7405a75c6280[m
+Merge: e8b468b d39ba89
+Author: Sahani99 <87770007+Sahani99@users.noreply.github.com>
+Date:   Sun Oct 27 19:28:01 2024 +0530
+
+    Merge pull request #34 from ashvin2005/patch-1
+    
+    Update README.md
+
+[33mcommit 9b5d7a0f4b4966e4e985dcae5dc639705a73c0ad[m
+Author: Abhi8756 <Abhijit.potty2023@vitstudent.ac.in>
+Date:   Sun Oct 27 13:47:51 2024 +0530
+
+    Changed appearance of tic-tac-toe
+
+[33mcommit d39ba89dc4553af5b6929e73dc19fd0a2c0a075b[m
+Author: ashvin2005 <ashvintiwari161@gmail.com>
+Date:   Sun Oct 27 12:35:32 2024 +0530
+
+    Update README.md
+    
+    I have made a enhanced version of Mini Projects Hacktoberfest 2024 README, featuring a more attractive layout and added emojis for a friendlier tone.
+
+[33mcommit e8b468b9013b211105c4db78925d6343514ea1b8[m
+Merge: c6f8039 5ccb806
+Author: Sahani99 <87770007+Sahani99@users.noreply.github.com>
+Date:   Sun Oct 27 09:37:33 2024 +0530
+
+    Merge pull request #32 from koustav2001/main
+    
+    Halloween website
+
+[33mcommit c6f8039b52aca2c954d11f4514be47bc1b978a73[m
+Merge: cd57f2f 6381336
+Author: Sahani99 <87770007+Sahani99@users.noreply.github.com>
+Date:   Sun Oct 27 09:36:38 2024 +0530
+
+    Merge pull request #31 from noshadlaghari1/main
+    
+    Notes App in Javascript
+
+[33mcommit cd57f2f5ea7e5941e8c28af0fd4281611511c455[m
+Merge: b617ac4 5486ee8
+Author: Sahani99 <87770007+Sahani99@users.noreply.github.com>
+Date:   Sun Oct 27 09:35:46 2024 +0530
+
+    Merge pull request #30 from jntbatra/sketch
+    
+    Added project Etch a skech in HTML Section
+
+[33mcommit 5ccb806b3b397a6d30e1989ae2cd3d76013008a6[m
+Author: koustav2001 <89209950+koustav2001@users.noreply.github.com>
+Date:   Sat Oct 26 14:09:44 2024 +0530
+
+    Add files via upload
+
+[33mcommit 5486ee89dacd1b74888bb3e902911829aa75fe32[m
+Merge: f93bcfe b617ac4
+Author: Jayant Batra <100766224+jntbatra@users.noreply.github.com>
+Date:   Sat Oct 26 13:34:03 2024 +0530
+
+    Merge branch 'main' into sketch
+
+[33mcommit 63813364d1b39996a55c05c31330afd0672f8437[m
+Author: Noshad Laghari <121024113+noshadlaghari1@users.noreply.github.com>
+Date:   Sat Oct 26 13:03:09 2024 +0500
+
+    Create Readme.md
+
+[33mcommit 90ebef267ebe15a5a1e5958dbf2f86df3d2b80cc[m
+Author: Noshad Laghari <121024113+noshadlaghari1@users.noreply.github.com>
+Date:   Sat Oct 26 13:02:23 2024 +0500
+
+    Create process_form.php
+
+[33mcommit debc9947abd8c15e2947c34334c468c13bfd80b2[m
+Author: Noshad Laghari <121024113+noshadlaghari1@users.noreply.github.com>
+Date:   Sat Oct 26 13:01:51 2024 +0500
+
+    Create script.js
+
+[33mcommit 83293833469cc0e94bba202ce76a7f82b143b23e[m
+Author: Noshad Laghari <121024113+noshadlaghari1@users.noreply.github.com>
+Date:   Sat Oct 26 13:01:30 2024 +0500
+
+    Create style.css
+
+[33mcommit 31a3988c04c71c9d039fc0885819d392b07af6f8[m
+Author: Noshad Laghari <121024113+noshadlaghari1@users.noreply.github.com>
+Date:   Sat Oct 26 13:01:10 2024 +0500
+
+    Create index.html
+
+[33mcommit 085a10ffdcd27251a813d4c8b0b23c9290893a72[m
+Merge: f45a05f b617ac4
+Author: Noshad Laghari <121024113+noshadlaghari1@users.noreply.github.com>
+Date:   Sat Oct 26 11:35:35 2024 +0500
+
+    Merge branch 'main' into main
+
+[33mcommit f45a05f20a4c242f33c2f5f1c4f1cb89f0017ae2[m
+Author: Noshad Laghari <121024113+noshadlaghari1@users.noreply.github.com>
+Date:   Sat Oct 26 11:33:59 2024 +0500
+
+    Create readme.md
+
+[33mcommit 1e12ca13a6c58745d78b396749d57be8a951687c[m
+Author: Noshad Laghari <121024113+noshadlaghari1@users.noreply.github.com>
+Date:   Sat Oct 26 11:31:39 2024 +0500
+
+    Create script.js
+
+[33mcommit c4b468c56ac4d421acc52d178992f11b70dfcd70[m
+Author: Noshad Laghari <121024113+noshadlaghari1@users.noreply.github.com>
+Date:   Sat Oct 26 11:31:10 2024 +0500
+
+    Create style.css
+
+[33mcommit f1681affccc8522500d5de4c1630e4b11dfc6193[m
+Author: Noshad Laghari <121024113+noshadlaghari1@users.noreply.github.com>
+Date:   Sat Oct 26 11:30:48 2024 +0500
+
+    Create index.html
+
+[33mcommit b617ac45b1409c89326bcb0d3d132956ab17654e[m
+Merge: d842ad7 8a10ad5
+Author: Sahani99 <87770007+Sahani99@users.noreply.github.com>
+Date:   Sat Oct 26 12:00:14 2024 +0530
+
+    Merge pull request #29 from jntbatra/etch-a-sketch
+    
+    Added project Etch a Sketch in HTML
+
+[33mcommit f97e3778aa6c1a7321eb5546d473652e059efcde[m
+Author: Noshad Laghari <121024113+noshadlaghari1@users.noreply.github.com>
+Date:   Sat Oct 26 11:30:05 2024 +0500
+
+    Delete notes-app-php directory
+
+[33mcommit 351d62de40b066424468cbd4db9c57f104aba9de[m
+Author: Noshad Laghari <121024113+noshadlaghari1@users.noreply.github.com>
+Date:   Sat Oct 26 11:28:11 2024 +0500
+
+    Create script.js
+
+[33mcommit 5c77f50981c355721602e32ca638f79951fc2330[m
+Author: Noshad Laghari <121024113+noshadlaghari1@users.noreply.github.com>
+Date:   Sat Oct 26 11:27:45 2024 +0500
+
+    Create style.css
+
+[33mcommit 17d94309d79719650a83574b219653e3ec8c6f6b[m
+Author: Noshad Laghari <121024113+noshadlaghari1@users.noreply.github.com>
+Date:   Sat Oct 26 11:27:25 2024 +0500
+
+    Create index.html
+
+[33mcommit 8a10ad53ef98de51709dc125c9273081c46d83bd[m
+Merge: 4184793 d842ad7
+Author: Jayant Batra <100766224+jntbatra@users.noreply.github.com>
+Date:   Sat Oct 26 11:02:55 2024 +0530
+
+    Merge branch 'main' into etch-a-sketch
+
+[33mcommit f93bcfe3d4dc2580123824be28f87d556e4114be[m
+Merge: 9d563ed d842ad7
+Author: Jayant Batra <100766224+jntbatra@users.noreply.github.com>
+Date:   Sat Oct 26 10:52:44 2024 +0530
+
+    Merge branch 'main' into sketch
+
+[33mcommit 9d563ed5d0203be420e1fadadd62ac06c13f85d4[m
+Author: Jayant Batra <jayantbtra@gmail.com>
+Date:   Sat Oct 26 10:47:46 2024 +0530
+
+    Fixed squares that pushed out of range
+
+[33mcommit d842ad76b4054149429c4175ab658a748e4070e0[m
+Merge: ab1722b d701465
+Author: Sahani99 <87770007+Sahani99@users.noreply.github.com>
+Date:   Sat Oct 26 10:42:14 2024 +0530
+
+    Merge pull request #28 from Lakshita-Kumawat/project
+    
+    Add password strength check project
+
+[33mcommit 41847936224534fac92c405a48da1e18e477dbb5[m
+Author: Jayant Batra <100766224+jntbatra@users.noreply.github.com>
+Date:   Sat Oct 26 10:33:32 2024 +0530
+
+    slider limited till 25 working perfectly
+
+[33mcommit c503c9301f9eda86b4989f63d3b27457b2b4d383[m
+Author: Jayant Batra <jayantbtra@gmail.com>
+Date:   Sat Oct 26 09:26:21 2024 +0530
+
+    Added project Etch a Sketch in HTML
+
+[33mcommit d701465bfc341465d2fd6b527970e14c7fe0cc7e[m
+Author: Lakshita-Kumawat <lakshitakumawat20@gmail.com>
+Date:   Fri Oct 25 23:34:44 2024 +0530
+
+    add password strength check project
+
+[33mcommit ab1722bcd324831f85aae35f81f1a46a8051f0dd[m
+Merge: 1acc14e 10b7d98
+Author: Sahani99 <87770007+Sahani99@users.noreply.github.com>
+Date:   Fri Oct 25 14:02:20 2024 +0530
+
+    Merge pull request #27 from Sahani99/about
+    
+    About
+
+[33mcommit 1acc14e1db8aa766f51b615d930740792fe5b394[m
+Merge: c0addce da47178
+Author: Sahani99 <87770007+Sahani99@users.noreply.github.com>
+Date:   Fri Oct 25 14:01:51 2024 +0530
+
+    Merge pull request #26 from Abhi8756/main
+    
+    Modified Review correcting it grammatically as well as improving the position
+
+[33mcommit c0addce73aad11e3730f91d9dfad7c07836fe54a[m
+Merge: 6d21e74 d3b565d
+Author: Sahani99 <87770007+Sahani99@users.noreply.github.com>
+Date:   Fri Oct 25 14:01:02 2024 +0530
+
+    Merge pull request #25 from ABHINAV2087/addingPrj
+    
+    project added
+
+[33mcommit 6d21e74e10f4cbed5cf05ed0a232faaab76d3a95[m
+Merge: 108503b 70a1973
+Author: Sahani99 <87770007+Sahani99@users.noreply.github.com>
+Date:   Fri Oct 25 14:00:10 2024 +0530
+
+    Merge pull request #24 from Bhumitg07205/Phython
+    
+    Phython Shape Recoginization
+
+[33mcommit 10b7d985681b3237844a8f7a711370cc08aee38d[m
+Author: DilankaDI <dilshandilanka96@gmail.com>
+Date:   Fri Oct 25 10:40:00 2024 +0530
+
+    Finished UI
+
+[33mcommit fe1c45e2c99d2ad01f0fdc7bb58a4ca1eeaec047[m
+Author: DilankaDI <dilshandilanka96@gmail.com>
+Date:   Fri Oct 25 10:39:37 2024 +0530
+
+    UI done
+    
+    Finished UI
+
+[33mcommit da4717821fff103f9418933d02cf0f20b12a3e46[m
+Merge: 8f1d986 108503b
+Author: Abhi8756 <Abhijit.potty2023@vitstudent.ac.in>
+Date:   Fri Oct 25 03:56:04 2024 +0530
+
+    Merge branch 'main' of https://github.com/Abhi8756/Mini-projects-Hacktoberfest2024
+    Modified review correcting it grammatically as well as improving the
+    position
+
+[33mcommit 8f1d986e7944b6f209758ee730029a8ddd361da7[m
+Author: Abhi8756 <Abhijit.potty2023@vitstudent.ac.in>
+Date:   Fri Oct 25 03:55:39 2024 +0530
+
+    Modified Review correcting it grammatically as well as improving the position
+
+[33mcommit d3b565d54eb6ea8161225afa0bfd35bc6223362b[m
+Author: Abhinav Tirole <abhinav.tirole2021@vitbhopal.ac.in>
+Date:   Thu Oct 24 23:01:04 2024 +0530
+
+    project added
+
+[33mcommit 70a19734e0e7906447fbdb75860dbc38454461f1[m
+Author: Bhumit Gupta <bhumit07205@gmail.com>
+Date:   Thu Oct 24 21:38:04 2024 +0530
+
+    add file
+
+[33mcommit 108503b34427b7e9bbe95b5499aa0c79cfc8a46b[m
+Merge: 27a7ec6 cdfbcd4
+Author: Sahani99 <87770007+Sahani99@users.noreply.github.com>
+Date:   Thu Oct 24 18:49:09 2024 +0530
+
+    Merge pull request #23 from Amit-Verma5262/added_project
+    
+    added a cool project Play Drum
+
+[33mcommit 27a7ec69c9094dbe2efc6ce741ed73cedb00eb85[m
+Merge: 474a8b4 f284aa1
+Author: Sahani99 <87770007+Sahani99@users.noreply.github.com>
+Date:   Thu Oct 24 18:48:27 2024 +0530
+
+    Merge pull request #22 from Sahani99/about
+    
+    about done
+
+[33mcommit cdfbcd46d571651f3329a31e6ca9db4e745f2990[m
+Author: Amit-Verma5262 <amitverma5262.02@gmail.com>
+Date:   Thu Oct 24 18:19:23 2024 +0530
+
+    added a cool project Play Drum
+
+[33mcommit f284aa165e2a8ca8846b4ea3f4fa91aa53d461df[m
+Author: DilankaDI <dilshandilanka96@gmail.com>
+Date:   Thu Oct 24 16:36:01 2024 +0530
+
+    services done
+    
+    Finished services and made few changes in footer and home page
+
+[33mcommit 32013819f3f1e398d831555e0ba07a214be36fd6[m
+Author: DilankaDI <dilshandilanka96@gmail.com>
+Date:   Thu Oct 24 16:21:19 2024 +0530
+
+    about done
+    
+    Finished about us page and styling
+
+[33mcommit 474a8b459bd3782335c37232f286caaa72f70f6e[m
+Merge: cf91ec5 ff842e9
+Author: Sahani99 <87770007+Sahani99@users.noreply.github.com>
+Date:   Thu Oct 24 12:28:29 2024 +0530
+
+    Merge pull request #21 from Sahani99/dilshan
+    
+    questionnaire,locations and routes done
+
+[33mcommit ff842e9c5eb0fc8f4951db19015ca1cc8a0de858[m
+Author: DilankaDI <dilshandilanka96@gmail.com>
+Date:   Thu Oct 24 12:11:31 2024 +0530
+
+    questionnaire,locations and routes done
+    
+    added questionnaire,added locations to location.js file and routes are working now
+
+[33mcommit cf91ec5195b5c9fe8ee7ad66c19f4b1e9e22561b[m
+Merge: 0d073c0 90b85f2
+Author: Sahani99 <87770007+Sahani99@users.noreply.github.com>
+Date:   Thu Oct 24 11:06:18 2024 +0530
+
+    Merge pull request #20 from MK-09-coder/tictactoe
+    
+    Added tic_tac_toe
+
+[33mcommit 90b85f2f7d7176776b513c114b8084e54501466b[m
+Author: MK-09-coder <thekumar09mk@gmail.com>
+Date:   Thu Oct 24 10:03:06 2024 +0530
+
+    tic_tac_toe_added
+
+[33mcommit 0d073c00a95b0f35b474606c7b20b5a49f9d93ac[m
+Merge: 5cef439 c0d3adc
+Author: Sahani99 <87770007+Sahani99@users.noreply.github.com>
+Date:   Thu Oct 24 08:59:58 2024 +0530
+
+    Merge pull request #19 from Sahani99/dilshan
+    
+    home done
+
+[33mcommit 5cef439771ba16112f2bfe0b962c6284374e8560[m
+Merge: 2f9b99f a81b082
+Author: Sahani99 <87770007+Sahani99@users.noreply.github.com>
+Date:   Thu Oct 24 08:59:15 2024 +0530
+
+    Merge pull request #18 from noshadlaghari1/patch-1
+    
+    Todo App in php
+
+[33mcommit a81b082497942aa8b3627a0955a9a5dd30a8d493[m
+Author: Noshad Laghari <121024113+noshadlaghari1@users.noreply.github.com>
+Date:   Wed Oct 23 17:17:07 2024 +0500
+
+    Create readme.md
+
+[33mcommit bc76f214c676f5c70dc63b9f6e4e1e59c87b7318[m
+Author: Noshad Laghari <121024113+noshadlaghari1@users.noreply.github.com>
+Date:   Wed Oct 23 17:15:51 2024 +0500
+
+    Create style.css
+
+[33mcommit 7e5c7700d2dc8db01f32e79e452ab6c5d5e4b6f6[m
+Author: Noshad Laghari <121024113+noshadlaghari1@users.noreply.github.com>
+Date:   Wed Oct 23 17:11:34 2024 +0500
+
+    Create index.php
+
+[33mcommit c0d3adccf283cfddcc3c31810937e0201d458459[m
+Author: DilankaDI <dilshandilanka96@gmail.com>
+Date:   Fri Oct 18 16:29:19 2024 +0530
+
+    home done
+    
+    created home page for the main project
+
+[33mcommit 2f9b99f426ca5366b21e192d005e235d98e0dc2a[m
+Merge: d54fdd6 6d07668
+Author: Sahani99 <87770007+Sahani99@users.noreply.github.com>
+Date:   Fri Oct 18 11:28:18 2024 +0530
+
+    Merge pull request #16 from Sahani99/weather
+    
+    Weather app php
+
+[33mcommit 6d07668ac461931e320383c86275875edb9af43c[m
+Author: DilankaDI <dilshandilanka96@gmail.com>
+Date:   Fri Oct 18 11:25:16 2024 +0530
+
+    Weather app php
+    
+    All set and working fine
+
+[33mcommit d54fdd693bf81a3db1e019c411f173db6f53bd6a[m
+Merge: 3d414b1 bcfe21d
+Author: Sahani99 <87770007+Sahani99@users.noreply.github.com>
+Date:   Fri Oct 18 10:51:08 2024 +0530
+
+    Merge pull request #14 from SubhaBhatta/new-project
+    
+    New Project
+
+[33mcommit 3d414b16198a2831bf3d5bb476108cc4bd68747e[m
+Merge: 86badce 2917b75
+Author: Sahani99 <87770007+Sahani99@users.noreply.github.com>
+Date:   Fri Oct 18 10:50:21 2024 +0530
+
+    Merge pull request #12 from ishapandey007/Rock-Paper-Scissors-Game
+    
+    Update style.css for Rock Paper Scissors Game
+
+[33mcommit 86badce86cf6a4180415d48b5f8985cdbe79b5c1[m
+Merge: d839528 4efbe81
+Author: Sahani99 <87770007+Sahani99@users.noreply.github.com>
+Date:   Fri Oct 18 10:49:40 2024 +0530
+
+    Merge pull request #10 from Deepasha1406/main
+    
+    Add Simon Game
+
+[33mcommit d8395283e0e6669efc3c05fd106810668cf359cd[m
+Merge: 8ce484e 8e42a27
+Author: Sahani99 <87770007+Sahani99@users.noreply.github.com>
+Date:   Fri Oct 18 10:48:53 2024 +0530
+
+    Merge pull request #7 from KanishkSakarwar/main
+    
+    Added HTML and CSS codes for Movie review site homepage along with assets used
+
+[33mcommit 8ce484e0d3894a3c3865cfe8909f15b5bb88582d[m
+Merge: b81f883 5dc2356
+Author: Sahani99 <87770007+Sahani99@users.noreply.github.com>
+Date:   Fri Oct 18 10:48:09 2024 +0530
+
+    Merge pull request #15 from ishapandey007/Tic-Tac-Toe-game-in-C++
+    
+    Tic tac toe game in C++
+
+[33mcommit 5dc235648329179aec1d3c2db39c2832039897a2[m
+Author: Isha Pandey <154870417+ishapandey007@users.noreply.github.com>
+Date:   Thu Oct 17 16:24:46 2024 +0530
+
+    Create Tic Tac Toe Game
+    
+    A Tic Tac Toe game in C++. It is an amazing game. Many our concepts clear from this. We should add this game.
+    I would be grateful if you merge this.
+    Thank You
+
+[33mcommit bcfe21dc815f84f6abaaa2036a8e19ae3c50e0ad[m
+Author: SubhaBhatta <subhabhatta3@gmail.com>
+Date:   Thu Oct 17 13:23:51 2024 +0545
+
+    Added a new project. It's a new Tic Tac Toe game made using HTML, CSS and JavaScript.
+
+[33mcommit 4045ede7b71a5a49ae5848e461bedc859853aecd[m
+Author: Isha Pandey <154870417+ishapandey007@users.noreply.github.com>
+Date:   Wed Oct 16 11:17:18 2024 +0530
+
+    Update script.js
+    
+    Added emojis on the result. It shows the result with emotions. It is also looking interesting. The emojis attract the player which makes game more interesting.
+
+[33mcommit 2917b7502cf38b34a6d3233caaf470c82ba19f97[m
+Author: Isha Pandey <154870417+ishapandey007@users.noreply.github.com>
+Date:   Wed Oct 16 11:06:24 2024 +0530
+
+    Update and rename HTML/Rock, Paper, Scissors/style.css to HTML/Rock, Paper, Scissorsstyle.css
+
+[33mcommit 4efbe819b3c74eaa5c3584add20c20affd46c21d[m
+Author: Deepasha1406 <deepasha1406@gmail.com>
+Date:   Tue Oct 15 22:04:15 2024 +0530
+
+    Add Simon Game
+
+[33mcommit 8e42a2745da0716c5d6e2fbb902975913bb1a87d[m
+Author: Kanishk Sakarwar <krishshlokh@gmail.com>
+Date:   Thu Oct 10 03:15:36 2024 +0530
+
+    Added HTML and CSS codes for Movie review site homepage along with assests used
+
+[33mcommit b81f883d908333f24371d26f2091329393fb506e[m
+Merge: 9ceb285 0955075
+Author: Dilshan Dilanka <87778909+DilankaDI@users.noreply.github.com>
+Date:   Wed Oct 9 18:43:24 2024 +0530
+
+    Merge pull request #5 from vidhvath28/main03
+    
+    Added Rock Paper Scissors game in HTML<CSS<JS
+
+[33mcommit 0955075d03368675d6cd64c700733d8588f16187[m
+Merge: bee3507 9ceb285
+Author: Vidhvath J Poojari <138788842+vidhvath28@users.noreply.github.com>
+Date:   Sun Oct 6 14:05:37 2024 +0530
+
+    Merge branch 'main' into main03
+
+[33mcommit bee3507171fb25163c27a280ca19f2fbb4baf297[m
+Author: vidhvath28 <vidhvathj.2005@gmail.com>
+Date:   Sun Oct 6 14:05:29 2024 +0530
+
+    Added Rock Paper Scissors game in HTML<CSS<JS
+
+[33mcommit 9ceb2852c2eda02f7356db1a74fcfe4df5edb01c[m
+Merge: 18e3e61 24b29dc
+Author: Dilshan Dilanka <87778909+DilankaDI@users.noreply.github.com>
+Date:   Sat Oct 5 22:06:50 2024 +0530
+
+    Merge pull request #4 from vidhvath28/main02
+    
+    Added todo app in Java
+
+[33mcommit 24b29dce4f2d1e4529d73761c9fcf3d8531e759a[m
+Merge: e1e6633 18e3e61
+Author: Vidhvath J Poojari <138788842+vidhvath28@users.noreply.github.com>
+Date:   Sat Oct 5 12:06:43 2024 +0530
+
+    Merge branch 'main' into main02
+
+[33mcommit e1e663353bd325c21c32bc59711fc50186566785[m
+Author: vidhvath28 <vidhvathj.2005@gmail.com>
+Date:   Sat Oct 5 12:06:10 2024 +0530
+
+    Added todo app in Java
+
+[33mcommit 18e3e61c39889447457fb422f7ca8ede3f5d3d7e[m
+Merge: 0a7b70d 76f5f73
+Author: Sahani99 <87770007+Sahani99@users.noreply.github.com>
+Date:   Fri Oct 4 18:42:31 2024 +0530
+
+    Merge pull request #2 from vidhvath28/main01
+    
+    Add Habit Tracker Implementation
+
+[33mcommit 0a7b70d501aef3b3b833e1f6aba8dc0741a514d0[m
+Author: DilankaDI <dilshandilanka96@gmail.com>
+Date:   Fri Oct 4 16:35:32 2024 +0530
+
+    Project started
+
+[33mcommit a39cbe9cedd5e454cd137fc8fda002c1f2b0596b[m
+Author: Dilshan Dilanka <87778909+DilankaDI@users.noreply.github.com>
+Date:   Fri Oct 4 16:29:36 2024 +0530
+
+    Delete mini-projects directory
+
+[33mcommit 76f5f73c72a5a3a506a1647e2b8d82011b8ed062[m
+Author: vidhvath28 <vidhvathj.2005@gmail.com>
+Date:   Fri Oct 4 16:16:10 2024 +0530
+
+    Add Habit Tracker
+
+[33mcommit 6b13a9fbd0b2ac4e9b4798689392b46061098533[m
+Author: DilankaDI <dilshandilanka96@gmail.com>
+Date:   Fri Oct 4 16:05:06 2024 +0530
+
+    Added readme files
+
+[33mcommit 64f197610346548f60a4440de6c66c5d0c243b85[m
+Author: DilankaDI <dilshandilanka96@gmail.com>
+Date:   Fri Oct 4 16:04:27 2024 +0530
+
+    Added readme files
+
+[33mcommit 0fc1a6ea3e0df45ded456f7fb457117cfec3dd1e[m
+Author: DilankaDI <dilshandilanka96@gmail.com>
+Date:   Fri Oct 4 15:48:15 2024 +0530
+
+    initial commit
+
+[33mcommit 77cbacf75de8f3464e1f72eb7b0b196ff767cdaa[m
+Author: Sahani99 <87770007+Sahani99@users.noreply.github.com>
+Date:   Fri Oct 4 15:03:58 2024 +0530
+
+    Update README.md
+
+[33mcommit 537b9b669300b02854920b702a2a77ac4fd6ec14[m
+Author: Sahani99 <87770007+Sahani99@users.noreply.github.com>
+Date:   Fri Oct 4 14:44:02 2024 +0530
+
+    Initial commit
