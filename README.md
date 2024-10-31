@@ -17,7 +17,6 @@ Click the Star button to show your support, and then Fork this repository to cre
 
 # Step 2: Clone the Repository
 Clone your forked repository to your local machine. Use the following command:
-
 `git clone <copied-url>`
 
 # Step 3: Create a New Branch
