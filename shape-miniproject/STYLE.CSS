@@ -1,0 +1,61 @@
+*{
+    margin:0%;
+    padding :0%;
+    box-sizing: border-box;
+}
+html,body{
+     height: 100%;
+     width:100%;
+}
+h1{
+    font-weight: lighter;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   background-color: rgb(230, 168, 245);
+}
+.shape{
+    margin-left:10px;
+    margin-top:10px; 
+    height:200px;
+    width: 200px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#circle{
+    /*color: rgb(238, 238, 234);
+    background-color: darkblue; */
+    border-radius: 50%;
+}
+#circle:hover{
+    background-color: rgb(33, 246, 54);
+}
+#circle h1{
+    color:aqua
+}
+#daimond {
+  rotate:40deg;
+  margin-top: 50px;
+}
+#daimond:hover{
+    background-color: hotpink;
+}
+#daimond h1{
+    rotate: -45deg;
+    color: black;
+}
+#square:hover {
+    background-color: black;
+    
+}
+#square h1{
+    color: rgb(237, 203, 49);
+
+}
