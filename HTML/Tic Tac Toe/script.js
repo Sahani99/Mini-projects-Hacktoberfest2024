@@ -1,93 +1,92 @@
-const X_CLASS = "x";
-const CIRCLE_CLASS = "circle";
-const WINNING_COMBINATIONS = [
-  [0, 1, 2],
-  [3, 4, 5],
-  [6, 7, 8],
-  [0, 3, 6],
-  [1, 4, 7],
-  [2, 5, 8],
-  [0, 4, 8],
-  [2, 4, 6],
+const cells = document.querySelectorAll('[data-cell]');
+const winningMessageElement = document.getElementById('winningMessage');
+const winningMessageTextElement = document.querySelector('[data-winning-message-text]');
+const restartButton = document.getElementById('restartButton');
+const scoreXElement = document.getElementById('scoreX');
+const scoreOElement = document.getElementById('scoreO');
+
+let isCircleTurn;
+let scoreX = 0;
+let scoreO = 0;
+
+const winningCombinations = [
+    [0, 1, 2],
+    [3, 4, 5],
+    [6, 7, 8],
+    [0, 3, 6],
+    [1, 4, 7],
+    [2, 5, 8],
+    [0, 4, 8],
+    [2, 4, 6]
 ];
-const cellElements = document.querySelectorAll("[data-cell]");
-const borad = document.getElementById("board");
-const restartButton = document.getElementById("restartButton");
-const winningMessageElement = document.getElementById("winningMessage");
-const winningMessageTextElement = document.querySelector(
-  "[data-winning-message-text]"
-);
-let circleTurn;
 
 startGame();
 
-restartButton.addEventListener("click", startGame);
+restartButton.addEventListener('click', startGame);
 
 function startGame() {
-  circleTurn = false;
-  cellElements.forEach((cell) => {
-    cell.classList.remove(X_CLASS);
-    cell.classList.remove(CIRCLE_CLASS);
-    cell.removeEventListener("click", handleClick);
-    cell.addEventListener("click", handleClick, { once: true });
-  });
-  setBoardHoverClass();
-  winningMessageElement.classList.remove("show");
+    isCircleTurn = false; // Reset the turn to 'X'
+    cells.forEach(cell => {
+        cell.classList.remove('x', 'circle'); // Remove any existing classes
+        cell.textContent = ''; // Clear the cell text
+        cell.removeEventListener('click', handleClick); // Remove any previous click listeners
+        cell.addEventListener('click', handleClick, { once: true }); // Add click listener for new game
+    });
+    setWinningMessage(false); // Clear any winning messages
+    winningMessageElement.classList.remove('show'); // Hide the winning message
 }
 
 function handleClick(e) {
-  const cell = e.target;
-  const currentClass = circleTurn ? CIRCLE_CLASS : X_CLASS;
-  placeMark(cell, currentClass);
-  if (checkWin(currentClass)) {
-    endGame(false);
-  } else if (isDraw()) {
-    endGame(true);
-  } else {
-    swapTurns();
-    setBoardHoverClass();
-  }
-}
-
-function swapTurns() {
-  circleTurn = !circleTurn;
-}
-
-function endGame(draw) {
-  if (draw) {
-    winningMessageTextElement.innerText = "Draw!";
-  } else {
-    winningMessageTextElement.innerText = `${circleTurn ? "O's" : "X's"} Wins!`;
-  }
-  winningMessageElement.classList.add("show");
+    const cell = e.target;
+    const currentClass = isCircleTurn ? 'circle' : 'x';
+    placeMark(cell, currentClass);
+    if (checkWin(currentClass)) {
+        setWinningMessage(true);
+        updateScore(currentClass);
+        setTimeout(startGame, 300); // Restart the game after 2 seconds
+    } else if (isDraw()) {
+        setWinningMessage(false, true);
+    } else {
+        isCircleTurn = !isCircleTurn; // Switch turns
+    }
 }
 
 function placeMark(cell, currentClass) {
-  cell.classList.add(currentClass);
+    cell.classList.add(currentClass);
+    cell.textContent = currentClass === 'circle' ? 'O' : 'X'; // Show 'X' or 'O'
 }
 
 function checkWin(currentClass) {
-  return WINNING_COMBINATIONS.some((combination) => {
-    return combination.every((index) => {
-      return cellElements[index].classList.contains(currentClass);
+    return winningCombinations.some(combination => {
+        return combination.every(index => {
+            return cells[index].classList.contains(currentClass);
+        });
     });
-  });
 }
 
 function isDraw() {
-  return [...cellElements].every((cell) => {
-    return (
-      cell.classList.contains(X_CLASS) || cell.classList.contains(CIRCLE_CLASS)
-    );
-  });
+    return [...cells].every(cell => {
+        return cell.classList.contains('x') || cell.classList.contains('circle');
+    });
 }
 
-function setBoardHoverClass() {
-  board.classList.remove(X_CLASS);
-  board.classList.remove(CIRCLE_CLASS);
-  if (circleTurn) {
-    board.classList.add(CIRCLE_CLASS);
-  } else {
-    board.classList.add(X_CLASS);
-  }
+function setWinningMessage(isWin, isDraw = false) {
+    if (isWin) {
+        winningMessageTextElement.textContent = isCircleTurn ? "O's Wins!" : "X's Wins!";
+    } else if (isDraw) {
+        winningMessageTextElement.textContent = "Draw!";
+    } else {
+        winningMessageTextElement.textContent = '';
+    }
+    winningMessageElement.classList.toggle('show', isWin || isDraw); // Show the message if there's a win or a draw
+}
+
+function updateScore(currentClass) {
+    if (currentClass === 'x') {
+        scoreX++;
+        scoreXElement.textContent = scoreX;
+    } else {
+        scoreO++;
+        scoreOElement.textContent = scoreO;
+    }
 }
